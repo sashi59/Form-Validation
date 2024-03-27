@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #141a34;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    color: #141a34;
+    background-color: #fff;
+    max-width: 430px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    transform: translateX(50%);
+    
+}
+form .input-group{
+    width: 100%;
+    /* background-color: brown; */
+    padding: 10px 0;
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    
+}
+form .input-group span{
+    color: red;
+    position: absolute;
+    right: 29px;
+    top: 12px;
+    font-size: 12px;
+}
+#error-submit{
+    color: red;
+    display: block;
+    font-size: 12px;
+    display: none;
+
+}
+form .input-group label{
+    width: 25%;
+}
+form .input-group input::placeholder{
+    color: #141a349f;
+    padding-bottom: 10px;
+
+}
+textarea::placeholder{
+    padding: 8px;
+}
+
+form .input-group input{
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #141a34;
+    width: 65%;
+}
+#submit-btn{
+    background-color: #141a34;
+    color: #fff;
+    padding: 9px 17px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    width: 100px;
+
+    margin-top: 10px;
+    margin-left: 125px;
+
+    
+}
+#error-message{
+    
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+i{
+    color: green;
+    font-size: 15px;
+}
+#main-icon{
+    color: #141a34;
+    /* color: linear-gradient(#141a34, #fff); */
+    position: absolute;
+    font-size: 40px;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
